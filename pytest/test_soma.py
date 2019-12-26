@@ -2,7 +2,7 @@ import pytest
 
 # ja que a chanada para o teste eh chamado na raiz do projeto
 # este import pode ser feito sem necessitar do uso de sys.path
-from lib.classe import Pessoa
+from pacote.classe import Pessoa
 
 # autouse=True informa que esta fixture deve ser utilizada sem ter de informar explicitamente no metodo de teste
 # scope='module' informa que a fixture deve ser utilizada em modulos
